@@ -15,6 +15,9 @@
                     <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-jet-nav-link>
+                    <x-jet-nav-link href="{{ route('devices') }}" :active="request()->routeIs('devices')">
+                        {{ __('Devices') }}
+                    </x-jet-nav-link>
                     <x-jet-nav-link href="{{ route('credits') }}" :active="request()->routeIs('credits')">
                         {{ __('Credits') }}
                     </x-jet-nav-link>
@@ -142,6 +145,9 @@
         <div class="pt-2 pb-3 space-y-1">
             <x-jet-responsive-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('devices') }}" :active="request()->routeIs('devices')">
+                {{ __('Devices') }}
             </x-jet-responsive-nav-link>
             <x-jet-responsive-nav-link href="{{ route('credits') }}" :active="request()->routeIs('credits')">
                 {{ __('Credits') }}
