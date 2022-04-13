@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-})->name('home');
+    return view('dashboard');
+})->name('dashboard');
+
+Route::get('/credits', function () {
+    return view('credits');
+})->name('credits');
 
 Route::middleware([
     'auth:sanctum',
