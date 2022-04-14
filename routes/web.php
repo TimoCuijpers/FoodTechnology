@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('dashboard');
 })->name('dashboard');
 
+Route::get('/devices', function () {
+    return view('devices');
+})->name('devices');
+
 Route::get('/credits', function () {
     return view('credits');
 })->name('credits');
