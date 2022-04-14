@@ -28,7 +28,7 @@
                     </div>
                     <div class="border rounded-md bg-white">
                         <a href="">
-                            <img src="{{ asset('img/WaterTap.jpg') }}" alt="" class="h-[150px] w-auto mx-auto">
+                            <img src="{{ asset('img/Kraanie.png') }}" alt="" class="h-[150px] w-auto mx-auto">
                             <p class="pt-4">
                                 Your water usage
                             </p>
