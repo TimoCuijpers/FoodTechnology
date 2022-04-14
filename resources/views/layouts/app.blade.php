@@ -17,6 +17,9 @@
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+
+        <!-- Favicon -->
+        <link rel="icon" href="{{ asset('img/foodtechnology-logo.gif') }}">
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
