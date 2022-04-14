@@ -56,7 +56,7 @@
                     </div>
                     <div class="sm:col-span-1 mx-10 my-10 h-auto"><div class="my-pie-chart1"></div></div>
                     <div class="text-center mx-10 my-10 sm:row-span-2 col-span-1 h-auto">
-                        <div class="grid bg-gray-300 grid-rows-2 sm:grid-rows-2 sm:grid-cols-2 sm:grid-flow-row grid-flow-col gap-4">
+                    <div class="grid bg-gray-300 grid-rows-2 sm:grid-rows-2 sm:grid-cols-2 sm:grid-flow-row grid-flow-col gap-4">
                         <div class="border-2 border-black"><h2 class="text-xl font-bold">koptekst</h2></div>
                         <div class="border-2 border-black"><h2 class="text-xl font-bold">koptekst</h2></div>
                         <div class="border-2 border-black"><h2 class="text-xl font-bold">koptekst</h2></div>
